@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0502296D2256DA870029E417 /* First2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502296C2256DA870029E417 /* First2ViewController.m */; };
 		4AA34AF71E35BE7D00CC8D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AF61E35BE7D00CC8D4C /* main.m */; };
 		4AA34AFA1E35BE7D00CC8D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AF91E35BE7D00CC8D4C /* AppDelegate.m */; };
 		4AA34AFD1E35BE7D00CC8D4C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AFC1E35BE7D00CC8D4C /* FirstViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0502296B2256DA870029E417 /* First2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = First2ViewController.h; sourceTree = "<group>"; };
+		0502296C2256DA870029E417 /* First2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First2ViewController.m; sourceTree = "<group>"; };
 		4AA34AF21E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSQLandscapeFullscreenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA34AF61E35BE7D00CC8D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AA34AF81E35BE7D00CC8D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 			children = (
 				4AA34AFB1E35BE7D00CC8D4C /* FirstViewController.h */,
 				4AA34AFC1E35BE7D00CC8D4C /* FirstViewController.m */,
+				0502296B2256DA870029E417 /* First2ViewController.h */,
+				0502296C2256DA870029E417 /* First2ViewController.m */,
 			);
 			name = First;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -215,6 +221,7 @@
 				4AA34B111E35C08D00CC8D4C /* ThirdViewController.m in Sources */,
 				4AA34AFA1E35BE7D00CC8D4C /* AppDelegate.m in Sources */,
 				4AA34B171E35E4B900CC8D4C /* EnterFullscreenTransition.m in Sources */,
+				0502296D2256DA870029E417 /* First2ViewController.m in Sources */,
 				4AA34B141E35E1E400CC8D4C /* TabBarController.m in Sources */,
 				4AA34B1A1E35E4CD00CC8D4C /* ExitFullscreenTransition.m in Sources */,
 				4AA34AFD1E35BE7D00CC8D4C /* FirstViewController.m in Sources */,

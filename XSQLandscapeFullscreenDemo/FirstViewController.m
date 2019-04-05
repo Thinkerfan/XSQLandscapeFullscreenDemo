@@ -23,7 +23,7 @@
     
     self.movieView = [[MovieView alloc] init];
     self.movieView.userInteractionEnabled = YES;
-    self.movieView.frame = CGRectMake(0, 100, 320, 180);
+    self.movieView.frame = CGRectMake(0, 200, 320, 180);
     [self.view addSubview:self.movieView];
     
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)];
